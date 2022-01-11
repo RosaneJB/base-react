@@ -1,7 +1,9 @@
-export const CreateUser = () => {
+import { UserCreateType } from "../../ts/users"
+
+export const CreateUser = ({classNames}:UserCreateType) => {
     return (
         <>
-        <h1>Criar usuário</h1>
+        <h1 className={classNames}>Criar usuário</h1>
         </>
     )
 }

@@ -1,0 +1,8 @@
+footer {
+    background-color: #000;
+    height: 30px;
+}
+
+main {
+    min-height: calc(100vh - (30px + 56px));
+}

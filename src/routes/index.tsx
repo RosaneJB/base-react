@@ -7,6 +7,7 @@ import { CreateUser } from "../pages/users/create"
 
 export const MainRoutes = () => {
     return (
+      <main>
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="main" element={<Main />} />
@@ -14,5 +15,6 @@ export const MainRoutes = () => {
         <Route path="users" element={<Users />} />
         <Route path="users/create" element={<CreateUser />} />
       </Routes>
+      </main>
     )
 }
